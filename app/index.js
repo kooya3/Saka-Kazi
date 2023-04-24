@@ -10,9 +10,9 @@ const Home = () => {
     const router = useRouter();
 
 
-    <View>
+    <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.lightWhite }}>
         <Text>Home</Text>
-    </View>
+    </SafeAreaView>
 }
 
 export default Home;
