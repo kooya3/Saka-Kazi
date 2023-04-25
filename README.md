@@ -5,7 +5,7 @@ Use [`expo-router`](https://expo.github.io/router) to build native navigation us
 ## 🚀 How to use
 
 ```sh
-sudo npm install expo-cli
+sudo npm install -g expo-cli
 ```
 ## Then
 
