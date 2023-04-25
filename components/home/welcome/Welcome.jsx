@@ -33,6 +33,15 @@ const Welcome = ({ searchTerm, setSearchTerm, handleClick }) => {
             placeholder='What are you looking for?'
           />
         </View>
+
+        <TouchableOpacity style={styles.searchBtn} onPress={handleClick}>
+          <Image
+            source={icons.search}
+            resizeMode='contain'
+            style={styles.searchBtnImage}
+          />
+        </TouchableOpacity>
+      </View>
   )
 }
 
