@@ -17,7 +17,10 @@ const Home = () => {
             headerShadowVisible: false,
             headerLeft: () => (
                 <ScreenHeaderBtn iconUrl={icons.menu} dimensions="60%" />
-            )
+            ),
+            headerRight: () => (
+                <ScreenHeaderBtn iconUrl={images.profile} dimension='100%' />
+              ),
         }}
         />
     </SafeAreaView>
