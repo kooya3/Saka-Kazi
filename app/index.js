@@ -21,8 +21,31 @@ const Home = () => {
             headerRight: () => (
                 <ScreenHeaderBtn iconUrl={images.profile} dimension='100%' />
               ),
+              headerTitle: "",
         }}
         />
+
+<ScrollView showsVerticalScrollIndicator={false}>
+        <View
+          style={{
+            flex: 1,
+            padding: SIZES.medium,
+          }}
+        >
+          <Welcome
+            searchTerm={searchTerm}
+            setSearchTerm={setSearchTerm}
+            handleClick={() => {
+              if (searchTerm) {
+                router.push(`/search/${searchTerm}`)
+              }
+            }}
+          />
+
+          <Popularjobs />
+          <Nearbyjobs />
+        </View>
+      </ScrollView>
     </SafeAreaView>
 }
 
