@@ -14,7 +14,14 @@ const Popularjobs = () => {
     <View style={styles.container}>
       <View style={styles.header}>
       <Text style={styles.headerTitle}>Popular jobs</Text>
+      <TouchableOpacity>
+        <Text style={styles.headerBtn}>show all</Text>
+      </TouchableOpacity>
       </View>
+
+      <view>
+        
+      </view>
     </View>
   )
 }
