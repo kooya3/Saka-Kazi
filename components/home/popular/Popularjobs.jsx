@@ -11,7 +11,7 @@ import {
 import styles from "./popularjobs.style";
 import { COLORS, SIZES } from "../../../constants";
 import PopularJobCard from "../../common/cards/popular/PopularJobCard";
-import useFetch from "../../../hook/useFetch";
+import useFetch from "/home/elyees/Development-env/Jsearch/hook/useFetch.js";
 
 const Popularjobs = () => {
   const router = useRouter();
