@@ -4,4 +4,5 @@ import axios from 'axios';
 const useFetch = () => {
     const [data, setData] = useState([]);
     const [isLoading, setISLoading] = useState(false);
+    const [error, setError] = useState(null);
 }
