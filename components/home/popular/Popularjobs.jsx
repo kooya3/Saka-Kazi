@@ -4,6 +4,9 @@ import { View, Text, TouchableOpacity, FlatList, ActivityIndicator } from 'react
 import { useRouter } from 'expo-router'
 import styles from './popularjobs.style'
 
+import { COLORS, SIZES } from '../../../constants';
+import PopularJobCard from '../../common/cards/popular/PopularJobCard';
+
 const Popularjobs = () => {
   return (
     <View>
