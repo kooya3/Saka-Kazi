@@ -19,8 +19,12 @@ const Popularjobs = () => {
       </TouchableOpacity>
       </View>
 
-      <view>
-        
+      <view style={styles.cardsContainer}>
+        {isLoading ? (
+          <ActivityIndicator size="large" colors={COLORS.primary} />
+        ) : error ? (
+          <Text>Something went wrong</Text>
+        )}
       </view>
     </View>
   )
