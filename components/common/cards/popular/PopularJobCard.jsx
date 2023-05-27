@@ -4,7 +4,7 @@ import styles from './popularjobcard.style'
 
 import { checkImageURL } from '../../../../utils';
 
-const PopularJobCard = () => {
+const PopularJobCard = ({ item, selectedJob, handleCardPress }) => {
   return (
     <View>
       <Text>PopularJobCard</Text>
